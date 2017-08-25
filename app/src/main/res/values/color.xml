@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ColorPrimaryDark">#2D3E50</color>
+    <color name="ColorPrimary">#DB4437</color>
+    <color name="windowBackground">#E0E0E0</color>
+    <color name="textcolour">#000</color>
+    <color name="grey"> #9e9e9e</color>
+    <color name="white">#ffffff</color>
+    <color name="hyperlink">#F1604D</color>
+    <color name="darkgrey">#757575</color>
+    <color name="litegrey">#bdbdbd</color>
+    <color name="bg_listview_pink">#80ad1457</color>
+    <color name="bg_outer_layout_pink">#1Aad1457</color>
+    <color name="bg_button_pink">#c51162</color>
+    <color name="yellow">#ffff00</color>
+    <color name="bg">#2D3E50</color>
+    <color name="bg_linearlayout">#E3E3E3</color>
+    <color name="button">#D7D7D7</color>
+    <color name="list_text">#85CBC0</color>
+    <color name="inputtext">#3498db</color>
+
+
+
+
+
+
+
+
+
+</resources>

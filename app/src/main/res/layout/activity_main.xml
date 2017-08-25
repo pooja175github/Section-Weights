@@ -1,0 +1,220 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/apk/lib/com.pragma.pooja_test"
+    android:id="@+id/MainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/bg"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/button"
+        android:elevation="4dp"
+        android:title="Ashish Steel"
+        android:theme="@style/AppTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+    <android.support.v4.widget.DrawerLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:weightSum="8"
+    android:background="@color/bg_linearlayout">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:layout_weight="1.2"
+
+       >
+
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="@color/textcolour"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:paddingLeft="10dp"
+            android:text="Type"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            />
+
+        <Spinner
+
+            android:id="@+id/spinner1"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="5"
+            android:gravity="left"
+
+            android:spinnerMode="dialog"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:layout_weight="1.2"
+
+        >
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/textcolour"
+            android:layout_weight="4"
+            android:paddingLeft="10dp"
+            android:text="Size"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Spinner
+
+            android:id="@+id/spinner2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:spinnerMode="dialog"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:layout_weight="1.2"
+
+      >
+
+        <TextView
+            android:id="@+id/TextViewKGFEET"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:paddingLeft="10dp"
+            android:textColor="@color/textcolour"
+            android:text="Kg/Feet"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        <TextView
+            android:id="@+id/wperfeet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:gravity="left"
+            android:textColor="@color/textcolour"
+            android:text="No value"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:layout_weight="1.2"
+
+        >
+
+        <TextView
+            android:id="@+id/TextViewKG"
+            android:layout_width="0dp"
+            android:textColor="@color/textcolour"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Kg/Meter"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/wpermtr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:gravity="left"
+            android:text="No value"
+            android:textColor="@color/textcolour"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:layout_weight="3.5">
+    <Button
+        android:id="@+id/chkamt"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Weight"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg"
+        />
+
+</LinearLayout>
+</LinearLayout>
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:background="#1A0000"
+            android:dividerHeight="0dp"
+            android:divider="@android:color/transparent"
+            />
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>

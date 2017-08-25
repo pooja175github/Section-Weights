@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Structure Weights</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_type">Select Type</string>
+    <string name="select_size">Select Size</string>
+    <string name="select_unit">Select Unit</string>
+    <string name="feet">Feet Value</string>
+    <string name="meter">Meter Value</string>
+    <string name="inch">Inch Value</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="about_company">Structure Weights makes user available with all the measurements along with weights at your finger tips. Very useful for structural designer / engineer for project estimation and supervision.
+</string>
+    <string name="adtype">ON</string>
+    <!-- ON,OFF,TEST -->
+    <!--<string-array name="Measurement">-->
+        <!--<item>Select Unit</item>-->
+        <!--<item>Feet</item>-->
+        <!--<item>Meter</item>-->
+    <!--</string-array>-->
+    <string name="banner_ad_unit_id">ca-app-pub-3074975588717631/8722129100</string>
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-3074975588717631/1198862300</string>
+
+</resources>
