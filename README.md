@@ -1,6 +1,6 @@
 # Section Weight
-![Home page](images/HomePage.jpg)
-![Main page](images/MainPage.jpg)
-![Cost of material](images/CostofMaterial.jpg)
-![Final cost page](images/FinalCost.jpg)
-![Navigation drawer page](images/NavigationDrawer.jpg)
+![Home page](Images/HomePage.jpg)
+![Main page](Images/MainPage.jpg)
+![Cost of material](Images/CostofMaterial.jpg)
+![Final cost page](Images/FinalCost.jpg)
+![Navigation drawer page](Images/NavigationDrawer.jpg)
