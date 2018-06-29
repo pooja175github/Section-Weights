@@ -1,5 +1,6 @@
 # Section Weight
 
+## Google Play-store Link : https://play.google.com/store/apps/details?id=com.section.weights&hl=en
 ## Index
 ![Home page](Images/HomePage.jpg)
 
